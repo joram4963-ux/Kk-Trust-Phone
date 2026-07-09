@@ -1,0 +1,2 @@
+# Kk-Trust-Phone
+YOUR TRUSTED PARTNER
