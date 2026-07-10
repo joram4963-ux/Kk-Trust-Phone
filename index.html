@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KK Trust Phones Uganda</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif;
+        }
+
+        body {
+            background: #f5f6fa;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: 700;
+            color: #00d084;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+                url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+
+        .btn {
+            background: #00d084;
+            padding: 14px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .section {
+            padding: 70px 5%;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 40px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .price {
+            color: #00d084;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            background: #0f172a;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .brands {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .brand {
+            background: #0f172a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .whatsapp {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background: #25D366;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">KK Trust Phones</div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Cart</a>
+            <a href="#">Login</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>KK Trust Phones</h1>
+            <p>Samsung • Tecno • Infinix • Redmi • Itel</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="title">Popular Brands</h2>
+
+        <div class="brands">
+            <div class="brand">Samsung</div>
+            <div class="brand">Tecno</div>
+            <div class="brand">Infinix</div>
+            <div class="brand">Redmi</div>
+            <div class="brand">Itel</div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="title">Featured Phones</h2>
+
+        <div class="products">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97">
+                <div class="card-content">
+                    <h3>Samsung Galaxy S24 Ultra</h3>
+                    <p class="price">UGX 4,500,000</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5">
+                <div class="card-content">
+                    <h3>Tecno Camon 50 Pro</h3>
+                    <p class="price">UGX 1,300,000</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505">
+                <div class="card-content">
+                    <h3>Tecno Spark 50</h3>
+                    <p class="price">UGX 650,000</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e">
+                <div class="card-content">
+                    <h3>Infinix hot 70</h3>
+                    <p class="price">UGX 650,000</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="title">Why Buy From Us?</h2>
+
+        <div class="products">
+            <div class="card">
+                <div class="card-content">
+                    <h3>✓ Genuine Phones</h3>
+                    <p>Original smartphones and accessories.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>✓ Best Prices</h3>
+                    <p>Affordable prices across Uganda.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>✓ Fast Delivery</h3>
+                    <p>Quick delivery countrywide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>KK Trust Phones</h2>
+        <p>Trusted Smartphones & Accessories</p>
+        <p>WhatsApp: 0700362107</p>
+        <p>© 2026 KK Trust Phones</p>
+    </footer>
+
+    <a class="whatsapp" href="https://wa.me/256700362107">
+        WhatsApp Us
+    </a>
+
+</body>
+
+</html>
